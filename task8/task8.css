@@ -1,7 +1,8 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #FFF;
+	box-sizing:border-box;
+	background-color: #FAFAFA;
 }
 .sprite {
 	background-image: url(images/sprite.png);
@@ -9,10 +10,11 @@ body {
 header {
 	position: relative;
 	top: 0;
-	margin: inherit;
-	width: 100vw;
+	margin: 0 auto;
+	width: 768px;
 	height: 30px;
 	color: #29B078;
+	background-color: #FFF;
 }
 .header-icon {
 	float: right;
@@ -35,10 +37,14 @@ header {
 }
 nav {
 	position: relative;
-	margin: inherit;
-	width: 100vw;
+	margin: 0 auto;
+	width: 768px;
 	height: 80px;
 	background-color: #29B078;
+}
+.logo {
+	float: left;
+	padding: 16px 0;
 }
 .nav-btn {
 	float: right;
@@ -57,10 +63,14 @@ a:hover .nav-btn{
 }
 .banner {
 	position: relative;
+	margin: 0 auto;
+	width: 768px;
+}
+.img-loop {
 	width: 100vw;
 }
-img {
-	width: 100vw;
+div img {
+	width: 100%;
 }
 footer {
 	position: relative;
@@ -75,6 +85,8 @@ p {
 	display: inline-block;
 }
 .line {
+	height: 18px;
+    line-height: 18px;
 	border-left: 1px solid #FFF;
 	display: inline-block;
 	margin-left: -1px;
@@ -85,6 +97,13 @@ p {
 	width: 250px;
     height: 120px;
     line-height: 30px;
+}
+.xx {
+	float: left;
+    padding-top: 5px;
+    width: 250px;
+    height: 120px;
+    line-height: 24px;
 }
 .footer-wx {
 	float: right;
@@ -106,3 +125,13 @@ p {
 .img-QR {
 	width: 90px;
 }
+.p-footer {
+	font-size: 16px;
+}
+div.item img{
+    width:100%;
+   }
+  div#carousel-example-generic{
+    width:100%;
+    margin:0 auto;
+  }
