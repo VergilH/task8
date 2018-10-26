@@ -7,11 +7,35 @@ body {
 .sprite {
 	background-image: url(images/sprite.png);
 }
+.backside {
+	position: absolute;
+	top: 0;
+	width: 100vw;
+	height: 30px;
+	background-color: #FFF;
+    z-index: -1;
+}
+.backside2 {
+	position: absolute;
+	top: 30px;
+	width: 100vw;
+	height: 80px;
+	background-color: #29B078;
+    z-index: -1;
+}
+.backside3 {
+	position: absolute;
+	top: 110px;
+	width: 100vw;
+	height: 244.53px;
+	background-color: #F1A750;
+    z-index: -1;
+}
 header {
 	position: relative;
 	top: 0;
 	margin: 0 auto;
-	width: 768px;
+	width: 1200px;
 	height: 30px;
 	color: #29B078;
 	background-color: #FFF;
@@ -38,7 +62,7 @@ header {
 nav {
 	position: relative;
 	margin: 0 auto;
-	width: 768px;
+	width: 1200px;
 	height: 80px;
 	background-color: #29B078;
 }
@@ -64,7 +88,7 @@ a:hover .nav-btn{
 .banner {
 	position: relative;
 	margin: 0 auto;
-	width: 768px;
+	width: 1200px;
 }
 .img-loop {
 	width: 100vw;
@@ -72,11 +96,109 @@ a:hover .nav-btn{
 div img {
 	width: 100%;
 }
+content {
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	width: 1200px;
+	height: 1000px;
+}
+
+content div {
+	margin: 0 auto;
+	width: 1200px;
+    height: 50px;
+    line-height: 50px;
+    align-items: center;
+}
+
+content img {
+	float: left;
+    margin-left: 20px;
+    width: 140px;
+}
+
+
+.introduce {
+    float: right;
+    width: 560px;
+    line-height: 25px;
+}
+
+.content-list {
+	font-size: 14px;
+	float: left;
+	padding: 0;
+	border: 1px solid #EEEDED;
+    border-radius: 6px;
+	width: 300px;
+	height: 700px;
+	background-color: #FFF;
+}
+
+.content-list div {
+	font-size: 16px;
+	font-weight: 1000;
+	border-bottom: 1px solid #E6E6E6;
+	width: 300px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+}
+
+.content-list ul {
+    margin: 0 auto;
+	padding: 20px 0 0 30px;
+    width: 100px;
+	color: #29B078;
+}
+
+.content-list ul li{
+	list-style-type: none;
+	list-style-image: url(images/li-circle.png);
+}
+
+.content-main {
+	float: right;
+    border: 1px solid #EEEDED;
+    border-radius: 6px;
+    width: 870px;
+    height: 1100px;
+    color: #999;
+    background-color: #FFF;
+}
+
+.content-main div {
+    padding: 20px 50px;
+	width: 870px;
+	height: 150px;
+	border-bottom: 1px solid #E6E6E6;
+}
+
+
+
+a:link { 
+	text-decoration: none;
+	color: black;
+}
+
+a:active { 
+	text-decoration:blink;
+}
+
+a:hover { text-decoration:none;
+	color: red;
+}
+
+a:visited { text-decoration: none;
+	color: green;
+}
+
 footer {
 	position: relative;
-	margin: inherit;
+	margin: 0 auto;
 	padding-top: 20px;
-	width: 100vw;
+	width: 1200px;
 	height: 175px;
 	color: #FFF;
 	background-color: #29B078;
@@ -115,7 +237,7 @@ p {
 .footer-copyright {
 	position: absolute;
 	bottom: 0;
-	width: 100vw;
+	width: 1024px;
 	height: 24px;
 	border-top: 1px solid #32C086;
 	box-sizing: border-box;
