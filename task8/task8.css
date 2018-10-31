@@ -101,7 +101,7 @@ content {
 	position: relative;
 	margin: 0 auto;
 	width: 1200px;
-	height: 1000px;
+	height: 1150px;
 }
 
 content div {
@@ -163,7 +163,7 @@ content img {
     border: 1px solid #EEEDED;
     border-radius: 6px;
     width: 870px;
-    height: 1100px;
+    height: 1000px;
     color: #999;
     background-color: #FFF;
 }
@@ -208,6 +208,16 @@ footer {
 	color: #FFF;
 	background-color: #29B078;
 }
+
+.footer-background {
+	z-index: -1;
+	position: absolute;
+	top: 1505px;
+	width: 100vw;
+	height: 175px;
+	background-color: #29B078;
+}
+
 p {
 	display: inline-block;
 }
@@ -240,10 +250,12 @@ p {
 	text-align: center;
 }
 .footer-copyright {
+	z-index: 1;
 	position: absolute;
-	bottom: 0;
-	width: 1024px;
+	top: 1655px;
+	width: 100vw;
 	height: 24px;
+	color: #FFF;
 	border-top: 1px solid #32C086;
 	box-sizing: border-box;
 	line-height: 24px;
@@ -258,7 +270,7 @@ p {
 div.item img{
     width:100%;
    }
-  div#carousel-example-generic{
+div #carousel-example-generic {
     width:100%;
     margin:0 auto;
-  }
+}
