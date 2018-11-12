@@ -1,7 +1,12 @@
+html {
+	overflow-x: hidden;
+}
+
 body {
 	margin: 0;
 	padding: 0;
 	box-sizing:border-box;
+	width: 100vw;
 	background-color: #FAFAFA;
 	overflow-x: hidden;
 }
@@ -11,32 +16,25 @@ body {
 }
 
 .header-background {
-    z-index: -1;
 	position: absolute;
 	top: 0;
 	width: 100vw;
 	height: 30px;
 	background-color: #FFF;
-	overflow-x: hidden;
+    z-index: -1;
+    overflow-x: hidden;
 }
 
 .nav-background {
-    z-index: -1;
 	position: absolute;
 	top: 30px;
 	width: 100vw;
 	height: 80px;
 	background-color: #29B078;
-	overflow-x: hidden;
-}
-.banner-background {
-	position: absolute;
-	top: 110px;
-	width: 100vw;
-	height: 244.53px;
-	background-color: #F1A750;
     z-index: -1;
+    overflow-x: hidden;
 }
+
 header {
 	position: relative;
 	top: 0;
@@ -87,117 +85,58 @@ nav {
 	color: #FFF;
 }
 
-a:hover .nav-btn{
+a:hover .nav-btn {
 	border-style: solid;
     border-width: 0 0 3px 0;
     border-color: #FFF;
 }
 
-a:focus .nav-btn{
+a:focus .nav-btn {
 	border-style: solid;
     border-width: 0 0 3px 0;
     border-color: #FFF;
 }
 
-.banner {
+menu {
 	position: relative;
 	margin: 0 auto;
-	width: 1200px;
-}
-.img-loop {
-	width: 100vw;
-}
-div img {
-	width: 100%;
-}
-content {
-	display: block;
-	position: relative;
-	margin: 0 auto;
-	width: 1200px;
-	height: 1150px;
-}
-
-content div {
-	margin: 0 auto;
-	width: 1200px;
-    height: 50px;
-    line-height: 50px;
-    align-items: center;
-}
-
-content img {
-	float: left;
-    margin-left: 20px;
-    width: 140px;
-}
-
-
-.introduce {
-    float: right;
-    width: 560px;
-    line-height: 25px;
-}
-
-.content-list {
-	font-size: 14px;
-	float: left;
 	padding: 0;
-	border: 1px solid #EEEDED;
-    border-radius: 6px;
-	width: 300px;
-	height: 700px;
-	background-color: #FFF;
+	width: 1200px;
+	height: 142px;
 }
 
-.content-list div {
-	font-size: 16px;
-	font-weight: 1000;
-	border-bottom: 1px solid #E6E6E6;
-	width: 300px;
-	height: 60px;
-	line-height: 60px;
-	text-align: center;
+menu div {
+	height: 80px;
+	line-height: 80px;
+	border-bottom: 1px solid #D0D6D9;
 }
 
-.content-list ul {
-    margin: 0 auto;
-	padding: 20px 0 0 30px;
-    width: 100px;
-	color: #29B078;
+.menu-main {
+	padding: 23px 0 0;
+    box-sizing: border-box;
+    color: #AFAFAF;
+    height: 60px;
+    line-height: 12px;
+    border-bottom: 1px solid #EDF1F2;
 }
 
-.content-list ul li {
-    margin: 34px 0;
-	width: 70px;
-    height: 16px;
-    line-height: 16px;
-	list-style-type: none;
-	list-style-image: url(images/li-circle.png);
+menu span {
+	padding: 0 12px;
+	color: #333;
 }
 
-.content-main {
-	float: right;
-    border: 1px solid #EEEDED;
-    border-radius: 6px;
-    width: 870px;
-    height: 1000px;
-    color: #999;
-    background-color: #FFF;
+menu button {
+	margin: 0 12px;
+	padding: 3px;
+    border: none;
+    background-color: #FAFAFA;
+    box-sizing: border-box;
 }
 
-.content-main div {
-	margin-bottom: 23px;
-    padding: 20px 60px;
-	width: 870px;
-	height: 150px;
-	border-bottom: 1px solid #E6E6E6;
-}
-
-.content-main-text {
-	padding: 13px 70px;
-	width: 870px;
-	line-height: 25px;
+button:focus {
+	outline: none;
+	color: #FFF;
+	background-color: #29B078;
 }
 
 a:link {
@@ -207,21 +146,141 @@ a:link {
 
 a:visited {
 	color: #29B078;
-	text-decoration:none;
+	text-decoration:none
 }
 
-a:hover li{
-	color: #FF650E;
-    text-decoration: none;
-    list-style-type: none;
-    list-style-image: url(images/li-disc.png);
+main {
+	position: relative;
+	margin: 0 auto;
+	width: 1200px;
+	height: 2500px;
 }
 
-a:focus li{
-	color: #FF650E;
-    text-decoration: none;
-    list-style-type: none;
-    list-style-image: url(images/li-disc.png);
+#submenu {
+	height: 80px;
+	line-height: 80px;
+	border-bottom: 1px solid #D0D6D9;
+	font-size: 16px;
+}
+
+main span {
+	display: inline-block;
+	margin: 45px 0 0 0;
+	width: 384px;
+	height: 445px;
+	font-size: 12px;
+	box-sizing: border-box;
+	border-radius: 6px;
+	border: 1px solid #EEEDED;
+}
+
+.main-span-right {
+	margin-left: 20px;
+}
+
+main img {
+	float: left;
+	margin: 20px 7px 0 11px;
+}
+
+.main-text {
+	font-size: 16px;
+	margin-top: 35px;
+}
+
+.introduce {
+    float: left;
+    width: 215px;
+}
+
+.border-top {
+	border-top: 1px solid #EDF1F2;
+}
+
+.border-left {
+	border-left: 1px solid #EDF1F2;
+}
+
+.main-top {
+	width: 385px;
+	height: 175px;
+}
+
+.main-summary {
+	float: left;
+	padding-left: 9px;
+	width: 191px;
+	height: 40px;
+	line-height: 40px;
+	color: #999;
+}
+
+.main-middle-left {
+	float: left;
+	width: 152px;
+	height: 105px;
+	line-height: 105px;
+	text-align: center;
+	color: #999;
+}
+
+.main-middle-right {
+	float: left;
+	padding: 0 11px 0 22px;
+	width: 229px;
+	height: 34px;
+	line-height: 34px;
+	color: #333;
+}
+
+.main-footer {
+	float: left;
+	padding-left: 9px;
+	width: 385px;
+	height: 40px;
+	line-height: 40px;
+	color: #999;
+}
+
+.red-text {
+	color: #F01400;
+}
+
+.img-star {
+	float: none;
+    margin: 0 3px 2px 0;
+}
+
+.main-text-right {
+	float: right;
+}
+
+.main-text-left {
+	float: left;
+	text-align: left;
+}
+
+.normal-fontsize {
+	font-size: 14px;
+	color: #333;
+}
+
+.main-hidden {
+	display: none;
+	position: absolute;
+	padding: 85px 40px 0;
+	width: 384px;
+	height: 445px;
+	text-align: center;
+	color: #FFF;
+	font-size: 16px;
+	box-sizing: border-box;
+	border-radius: 6px;
+	background-color: rgba(51,51,51,0.9);
+}
+
+main span:hover .main-hidden {
+	display: block;
 }
 
 footer {
@@ -270,21 +329,10 @@ p {
 	font-size: 16px;
 	text-align: center;
 }
-
-.footer-background {
-	z-index: -1;
-	position: absolute;
-	top: 1505px;
-	width: 100vw;
-	height: 185px;
-	background-color: #29B078;
-	overflow-x: hidden;
-}
-
 .footer-copyright {
 	z-index: 1;
 	position: absolute;
-	top: 1665px;
+	top: 2903px;
 	width: 100vw;
 	height: 24px;
 	color: #FFF;
@@ -294,6 +342,17 @@ p {
 	text-align: center;
 	overflow-x: hidden;
 }
+
+.footer-background {
+	z-index: -1;
+	position: absolute;
+	top: 2742px;
+	width: 100vw;
+	height: 185px;
+	background-color: #29B078;
+	overflow-x: hidden;
+}
+
 .img-QR {
 	margin: 3px 1px 0 0;
 	width: 90px;
@@ -304,12 +363,4 @@ p {
 
 .footer-text {
 	margin-bottom: 7px;
-}
-
-div.item img{
-    width:100%;
-   }
-div #carousel-example-generic {
-    width:100%;
-    margin:0 auto;
 }
