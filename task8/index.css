@@ -10,6 +10,16 @@ body {
 	background-image: url(images/sprite.png);
 }
 
+#narmal-text {
+	font-size: 14px;
+	color: #999;
+}
+
+#strong-text {
+	font-size: 18px;
+	font-weight: bold;
+}
+
 .header-background {
     z-index: -1;
 	position: absolute;
@@ -113,6 +123,7 @@ div img {
 
 .main-first {
 	position: relative;
+	margin: 0 auto;
 	width: 1200px;
 	height: 265px;
 }
