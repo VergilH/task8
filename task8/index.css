@@ -13,11 +13,24 @@ body {
 #narmal-text {
 	font-size: 14px;
 	color: #999;
+	text-align: left;
 }
 
 #strong-text {
 	font-size: 18px;
 	font-weight: bold;
+    text-align: center;
+}
+
+#green-text {
+  font-size: 18px;
+  color: #26A26F
+}
+
+.blank {
+  	float: left;
+    width: 75px;
+    height: inherit;
 }
 
 .header-background {
@@ -112,7 +125,7 @@ a:focus .nav-btn{
 .banner {
 	position: relative;
 	margin: 0 auto;
-	width: 1200px;
+	width: 100vw;
 }
 .img-loop {
 	width: 100vw;
@@ -121,11 +134,96 @@ div img {
 	width: 100%;
 }
 
-.main-first {
+.main-content1 {
 	position: relative;
-	margin: 0 auto;
+	margin: 100px auto;
+	padding: 10px 0;
 	width: 1200px;
 	height: 265px;
+}
+
+.main-icon1 {
+	margin: 35px auto;
+    width: 44px;
+    height: 64px;
+}
+
+.main-icon2 {
+	margin: 42px auto;
+    width: 61px;
+    height: 50px;
+}
+
+.main-icon3 {
+	margin: 39.5px auto;
+    width: 52px;
+    height: 55px;
+}
+
+.main-content1 span {
+    float: left;
+    width: 222px;
+    height: 265px;
+	text-align: center;
+}
+
+#grayline {
+    float: left;
+	margin: 0 40px;
+  	width: 1px;
+    height: inherit;
+  	border-left: 1px dashed #DEDEDE;
+}
+
+.main-amount {
+  	float: left;
+	padding: 60px 0;
+   	width: 222px;
+  	height: inherit;
+	font-size: 18px;
+	color: #999;
+}
+
+.main-amount img {
+  	width: 15px;
+  	height: 13px;
+	vertical-align: baseline;
+}
+
+.main-subnav {
+	position: relative;
+	margin: 0 auto;
+  	width: 1200px;
+  	height: 30px;
+  	text-align: center;
+}
+
+.main-content2 {
+  	position: relative;
+  	margin: 0 auto;
+  	width: 1200px;
+  	height: 250px;
+}
+
+.main-content2-circle {
+	float: left;
+  	width: 72px;
+  	height: 72px;
+  	line-height: 72px;
+  	border: 1px solid #E2E2E2;
+ 	border-radius: 36px;
+	box-sizing: border-box;
+	text-align: center;
+	color: #29B078;
+	font-weight: bold;
+	background-color: #FFF;
+}
+
+.main-content2-text {
+  	float: left;
+  	width: 200px;
+  	height: 72px;
+  	line-height: 30px;
 }
 
 footer {
