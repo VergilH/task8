@@ -10,7 +10,7 @@ body {
 	background-image: url(images/sprite.png);
 }
 
-#narmal-text {
+.normal-text {
 	font-size: 14px;
 	color: #999;
 	text-align: left;
@@ -200,13 +200,14 @@ div img {
 
 .main-content2 {
   	position: relative;
-  	margin: 0 auto;
+  	margin: 50px auto 90px;
   	width: 1200px;
-  	height: 250px;
+  	height: 72px;
 }
 
 .main-content2-circle {
 	float: left;
+	margin-right: 20px;
   	width: 72px;
   	height: 72px;
   	line-height: 72px;
@@ -220,10 +221,76 @@ div img {
 }
 
 .main-content2-text {
+	display: table;
   	float: left;
-  	width: 200px;
+  	width: 151px;
   	height: 72px;
   	line-height: 30px;
+}
+
+.main-text-middle {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.main-content2-arrow {
+	float: left;
+	margin: 23.5px 24px;
+	width: 28px;
+	height: 25px;
+}
+
+.main-content3 {
+	position: relative;
+	margin: 0 auto;
+	width: 1200px;
+	height: 370px;
+}
+
+.main-content3 div {
+	float: left;
+	padding: 20px 32px;
+	width: 272px;
+	height: inherit;
+  	border: 1px solid #EEEDED;
+  	border-radius: 5px;
+  	line-height: 24px;
+	text-align: center;
+	background-color: #FFF;
+}
+
+.main-content3 span {
+	float: left;
+	width: 35px;
+	height: inherit;
+}
+
+.main-content3-circle {
+	width: 13px;
+	height: 13px;
+  	border: 1px solid #EEEDED;
+  	border-radius: 6.5px;
+	background-color: #FFF;
+}
+
+a:focus .main-content3-circle {
+	border: none;
+	background-color: #29B078;
+}
+
+a:hover .main-content3-circle {
+	border: none;
+	background-color: #29B078;
+}
+
+.main-content3 img {
+	margin: 0 auto 25px;
+	width: 108px;
+	height: 109px;
+}
+
+.main-content3 p {
+	margin-top: 10px;
 }
 
 footer {
@@ -276,7 +343,7 @@ p {
 .footer-background {
 	z-index: -1;
 	position: absolute;
-	top: 1505px;
+	top: 2000px;
 	width: 100vw;
 	height: 185px;
 	background-color: #29B078;
@@ -286,7 +353,7 @@ p {
 .footer-copyright {
 	z-index: 1;
 	position: absolute;
-	top: 1665px;
+	top: 2160px;
 	width: 100vw;
 	height: 24px;
 	color: #FFF;
