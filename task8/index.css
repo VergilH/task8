@@ -29,7 +29,7 @@ body {
 
 .blank {
   	float: left;
-    width: 75px;
+    width: 105px;
     height: inherit;
 }
 
@@ -242,7 +242,7 @@ div img {
 
 .main-content3 {
 	position: relative;
-	margin: 0 auto;
+	margin: 72px auto;
 	width: 1200px;
 	height: 370px;
 }
@@ -261,7 +261,7 @@ div img {
 
 .main-content3 span {
 	float: left;
-	width: 35px;
+	width: 37px;
 	height: inherit;
 }
 
@@ -291,6 +291,36 @@ a:hover .main-content3-circle {
 
 .main-content3 p {
 	margin-top: 10px;
+}
+
+.main-content4 {
+	position: relative;
+	margin: 66px auto 90px;
+	width: 1200px;
+	height: 177.7px;
+	border: 1px solid #EEEDED;
+}
+
+.main-connector-bg {
+	position: relative;
+	width: 100vw;
+	height: 100px;
+	background-color: #FFF;
+}
+
+.main-connector {
+	position: relative;
+	margin: 0 auto;
+	width: 1200px;
+	height: 30px;
+}
+
+.main-connector li {
+	float: left;
+	margin: 0 55px 0 1px;
+	font-size: 14px;
+	color: #999;
+	text-align: left;
 }
 
 footer {
@@ -343,7 +373,7 @@ p {
 .footer-background {
 	z-index: -1;
 	position: absolute;
-	top: 2000px;
+	top: 2600px;
 	width: 100vw;
 	height: 185px;
 	background-color: #29B078;
@@ -353,7 +383,7 @@ p {
 .footer-copyright {
 	z-index: 1;
 	position: absolute;
-	top: 2160px;
+	top: 2760px;
 	width: 100vw;
 	height: 24px;
 	color: #FFF;
