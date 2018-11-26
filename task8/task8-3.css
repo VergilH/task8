@@ -19,6 +19,7 @@ body {
 	position: absolute;
 	top: 0;
 	width: 100vw;
+	min-width: 1200px;
 	height: 30px;
 	background-color: #FFF;
     z-index: -1;
@@ -29,6 +30,7 @@ body {
 	position: absolute;
 	top: 30px;
 	width: 100vw;
+	min-width: 1200px;
 	height: 80px;
 	background-color: #29B078;
     z-index: -1;
@@ -334,6 +336,7 @@ p {
 	position: absolute;
 	top: 2903px;
 	width: 100vw;
+	min-width: 1200px;
 	height: 24px;
 	color: #FFF;
 	border-top: 1px solid #32C086;
@@ -348,6 +351,7 @@ p {
 	position: absolute;
 	top: 2742px;
 	width: 100vw;
+	min-width: 1200px;
 	height: 185px;
 	background-color: #29B078;
 	overflow-x: hidden;

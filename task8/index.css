@@ -63,6 +63,7 @@ body {
 	background-color: #29B078;
 	overflow-x: hidden;
 }
+
 .banner-background {
 	position: absolute;
 	top: 110px;
@@ -71,6 +72,7 @@ body {
 	background-color: #F1A750;
     z-index: -1;
 }
+
 header {
 	position: relative;
 	top: 0;
@@ -80,22 +82,27 @@ header {
 	color: #29B078;
 	background-color: #FFF;
 }
+
 .header-icon {
 	float: right;
 	margin: 0 6px;
 	width: 30px;
 	height: 30px;
 }
+
 .header-text {
 	display: inline;
 	line-height: 30px;
 }
+
 .icon-weixin {
 	background-position: 0 58px;
 }
+
 .icon-qq {
 	background-position: 0 29px;
 }
+
 .icon-weibo {
 	background-position: 38px 58px;
 }
@@ -156,6 +163,7 @@ a:focus .nav-btn{
 	width: 100vw;
 	min-width: 1200px;
 }
+
 div img {
 	width: 100%;
 }
@@ -331,7 +339,7 @@ a:hover .main-content3-circle {
 .main-connector-bg {
 	position: relative;
 	width: 100vw;
-	height: 100px;
+	height: 120px;
 	background-color: #FFF;
 }
 
@@ -344,7 +352,7 @@ a:hover .main-content3-circle {
 
 .main-connector li {
 	float: left;
-	margin: 0 55px 0 1px;
+	margin: 0 45px 0 1px;
 	font-size: 14px;
 	color: #999;
 	text-align: left;
@@ -373,6 +381,7 @@ footer {
 p {
 	display: inline-block;
 }
+
 .line {
 	height: 18px;
     line-height: 18px;
@@ -392,6 +401,7 @@ p {
     height: 120px;
     line-height: 30px;
 }
+
 .xx {
 	float: left;
     padding-top: 5px;
@@ -439,9 +449,10 @@ p {
 	margin-bottom: 7px;
 }
 
-div.item img{
+div .item img {
     width:100%;
-   }
+}
+
 div #carousel-example-generic {
     width:100%;
     margin:0 auto;
