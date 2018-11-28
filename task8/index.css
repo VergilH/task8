@@ -6,6 +6,20 @@ body {
 	overflow-x: hidden;
 }
 
+@media screen and (min-width:600px) and (max-width:900px){
+    body {
+    	background-color:#555;
+    }
+}
+
+@media screen and (min-width:1200px)
+
+@media screen and (min-width:992px)
+
+@media screen and (min-width:768px)
+
+@media screen and (min-width:480px)
+
 .sprite {
 	background-image: url(images/sprite.png);
 }
@@ -339,6 +353,7 @@ a:hover .main-content3-circle {
 .main-connector-bg {
 	position: relative;
 	width: 100vw;
+	min-width: 1200px;
 	height: 120px;
 	background-color: #FFF;
 }
