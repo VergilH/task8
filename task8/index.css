@@ -531,6 +531,41 @@ div #carousel-example-generic {
 	.blank {
 		display: none;
 	}
+
+	.main-content1 {
+		height: auto;
+		overflow: hidden;
+	}
+
+	.main-content2 {
+		height: auto;
+		overflow: hidden;
+	}
+
+	.main-content3 {
+		height: auto;
+		overflow: hidden;
+	}
+
+	.main-content4 {
+		height: auto;
+		overflow: hidden;
+	}
+
+	.main-subnav {
+		height: auto;
+		overflow: hidden;
+	}
+
+	.main-connector {
+		height: auto;
+		overflow: hidden;
+	}
+
+	.main-connector-bg {
+		height: auto;
+		overflow: hidden;
+	}
 }
 
 @media screen and (min-width: 624px) and (max-width:1200px) {
@@ -540,8 +575,8 @@ div #carousel-example-generic {
 		padding: 0 12vw;
 	}
 
-	.greyline {
-		margin: 0 10vw;
+	#grayline {
+		margin: 0 3vw 0 15vw;
 	}
 
 	.main-amount {
@@ -560,7 +595,7 @@ div #carousel-example-generic {
 		display: none;
 	}
 
-	.content2-text {
+	.main-content2-text {
 		width: 25vw;
 		line-height: 12vw;
 	}
