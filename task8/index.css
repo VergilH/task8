@@ -324,6 +324,23 @@ a:hover .main-content3-circle {
 	margin: 66px auto 90px;
 	height: 177.7px;
 	border: 1px solid #EEEDED;
+	background-color: #FFF;
+}
+
+.main-content4-icon1 {
+	padding-right: 15%;
+}
+
+.main-content4-icon2 {
+	padding-right: 20%;
+}
+
+.main-content4-icon3 {
+	padding: 15% 5%;
+}
+
+.main-content4-icon4 {
+	padding: 15% 0 20% 5%;
 }
 
 .main-connector-bg {
@@ -432,7 +449,7 @@ p {
 }
 
 .footer-text {
-	margin-bottom: 7px;
+	margin-bottom: 54px;
 }
 
 div .item img {
@@ -494,14 +511,17 @@ div #carousel-example-generic {
 @media screen and (max-width:1200px) {
 	header {
 		width: 100vw;
+		padding: 0 15px;
 	}
 
 	nav {
 		width: 100vw;
+		padding: 0 15px;
 	}
 
 	footer {
 		width: 100vw;
+		padding: 20px 15px 0;
 	}
 
     .main-connector {
@@ -517,6 +537,7 @@ div #carousel-example-generic {
     }
 
     .main-content2 {
+    	margin: 0;
     	width: 100vw;
     }
 
@@ -606,5 +627,70 @@ div #carousel-example-generic {
 
 	.main-content2-text p {
 		margin: 0;
+	}
+
+	.main-content3 div {
+		margin: 5vw 6vw;
+		width: 37vw;
+	}
+
+	.clearfloat {
+		clear: both;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	footer {
+		height: auto;
+		margin-bottom: 45px;
+	}
+
+	.footer-bg {
+		height: auto;
+		padding: 2vw 0;
+	}
+
+	.footer-content {
+		float: none;
+		height: auto;
+	}
+
+	.footer-wx {
+		float: none;
+		text-align: left;
+	}
+
+	.footer-copyright {
+		height: auto;
+	}
+
+	.xx {
+		height: auto;
+	}
+
+	.footer-text {
+		margin-bottom: 20px;
+	}
+
+	.hidden-img1 {
+		display: none;
+	}
+
+	.hidden-img2 {
+		display: block;
+	}
+
+	.main-content4 {
+		width: 70vw;
+	}
+}
+
+@media screen and (min-width: 650px) {
+	.hidden-img2 {
+		display: none;
+	}
+
+	.hidden-img1 {
+		display: block;
 	}
 }
