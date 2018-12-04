@@ -694,3 +694,54 @@ div #carousel-example-generic {
 		display: block;
 	}
 }
+
+@media screen and (max-width: 624px) {
+	.main-content1 span {
+		width: 100vw;
+		padding: 0 12vw;
+	}
+
+	#grayline {
+		display: none;
+	}
+
+	.main-amount {
+		width: 100vw;
+    	text-align: center;
+    	margin: 0 auto;
+	}
+
+	.main-content2-circle {
+		margin: 2vw 10vw;
+    	width: 20vw;
+    	height: 20vw;
+    	line-height: 20vw;
+    	border-radius: 10vw;
+	}
+
+	.main-content2-arrow {
+		display: none;
+	}
+
+	.main-content2-text {
+		display: flex;
+    	margin: 2vw 0;
+    	width: 50%;
+    	height: 20vw;
+    	justify-content: space-around;
+    	flex-direction: column;
+	}
+
+	.main-content2-text p {
+		margin: 0;
+	}
+
+	.main-content3 div {
+		margin: 5vw 6vw;
+		width: 90vw;
+	}
+
+	.clearfloat {
+		clear: both;
+	}
+}
