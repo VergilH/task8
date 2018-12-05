@@ -2,15 +2,16 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=yes">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
   <meta name="format-detection" content="telephone=no">
   <title>技能树首页</title>
-  <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="index.css">
   <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.css">
   <script src="js/bootstrap.js"></script>
 </head>
 <body>
+
   <div class="header-bg">
     <header>
       <p class="header-text">客服热线：010-594-78634</p>
@@ -42,6 +43,29 @@
 	  <a href="task8-2.html">
 	    <div class="nav-btn">关于</div>
 	  </a>
+
+	  <div class="dropdown bg-green dropbtn pull-right">
+      <button type="button" class="btn dropdown-toggle bg-green dropbtn" id="dropdownMenu1" data-toggle="dropdown">
+      点击展开      
+      </button>
+  
+        <ul class="dropdown-menu bg-green" role="menu" aria-labelledby="dropdownMenu1">
+          <li>
+            <a href="task8-2.html">关于</a>       
+          </li>
+          <li role="presentation">
+            <a href="#">推荐</a>        
+          </li>
+
+          <li role="presentation">
+            <a href="task8-3.html">职业</a>       
+          </li>
+          <li role="presentation">
+            <a href="index.html">首页</a>       
+          </li>
+        </ul>
+      </div>  
+
     </nav>
   </div>
 
@@ -390,39 +414,3 @@
   </div>
 </body>
 </html>
-
-
-
-/** 今天完成的事情：
-
-开始任务九，努力修改样式....
-
-
-
-明天计划的事情：
-
-继续对页面进行修改自适应
-
-
-
-
-
-遇到的问题：
-
-子元素使用float时父元素不能高度自适应
-
-有两种方法可以解决
-
-1.在父元素最后一个元素添加css clear:both
-
-2.在父元素样式里加上overflow: hidden或者auto也可以
-
-个人推荐第二种方法，比较方便也不用额外加多一个元素
-
-
-
-
-
-收获：
-
-学会媒体查询的使用，子元素使用浮动时高度自适应 **/

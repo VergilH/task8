@@ -6,8 +6,6 @@ body {
 	overflow-x: hidden;
 }
 
-
-
 .sprite {
 	background-image: url(images/sprite.png);
 }
@@ -110,7 +108,6 @@ header {
 	width: 100vw;
 	height: 80px;
 	background-color: #29B078;
-	overflow-x: hidden;
 }
 
 nav {
@@ -118,6 +115,22 @@ nav {
 	margin: 0 auto;
 	height: 80px;
 	background-color: #29B078;
+}
+
+.dropbtn {
+	display: none;
+	float: right;
+	height: 80px;
+}
+
+.bg-green {
+	color: #FFF!important;
+	background-color: #29B078!important;
+}
+
+nav div ul li a {
+	color: #FFF!important;
+	background-color: #29B078!important;
 }
 
 .logo {
@@ -511,7 +524,7 @@ div #carousel-example-generic {
 @media screen and (max-width:1200px) {
 	header {
 		width: 100vw;
-		padding: 0 15px;
+		padding-left: 15px;
 	}
 
 	nav {
@@ -743,5 +756,17 @@ div #carousel-example-generic {
 
 	.clearfloat {
 		clear: both;
+	}
+
+	.carousel-indicators {
+		bottom: -10px!important;
+	}
+
+	nav a div {
+		display: none;
+	}
+
+	.dropbtn {
+		display: inline-block;
 	}
 }
