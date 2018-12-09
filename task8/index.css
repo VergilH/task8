@@ -106,7 +106,7 @@ header {
 .nav-bg {
 	position: relative;
 	width: 100vw;
-	height: 80px;
+	height: auto;
 	background-color: #29B078;
 }
 
@@ -137,6 +137,52 @@ nav div ul li a {
 	float: left;
 	width: 107px;
 	padding: 16px 0;
+}
+
+.nav-dropdown-btn {
+	float: right;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFF;
+}
+
+.nav-dropdown {
+	display: none;
+	position: relative;
+	width: 100vw;
+	height: 20px;
+	background-color: #29B078;
+	color: #FFF;
+}
+
+.nav-bg button {
+	position: relative;
+	right: 15px;
+	bottom: 60px;
+	float: right;
+	padding: 0;
+	width: 40px;
+	height: 40px;
+    border: none;
+    border-radius: 5px;
+	background-color: #222;
+}
+
+button:hover .nav-dropdown-btn {
+	display: block;
+	background-color: #555;
+}
+
+button:focus .nav-dropdown-btn .nav-dropdown {
+	display: block;
+	background-color: #555;
+}
+
+button:focus .nav-dropdown {
+	display: block;
+	background-color: #555;
 }
 
 .nav-btn {
@@ -767,6 +813,10 @@ div #carousel-example-generic {
 	}
 
 	.dropbtn {
+		display: inline-block;
+	}
+
+	.nav-dropdowm-btn {
 		display: inline-block;
 	}
 }
