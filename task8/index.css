@@ -2,7 +2,7 @@ body {
 	margin: 0;
 	padding: 0;
 	box-sizing:border-box;
-	background-color: #FAFAFA;
+	background-color: #FAFAFA!important;
 	overflow-x: hidden;
 }
 
@@ -107,6 +107,7 @@ header {
 	position: relative;
 	width: 100vw;
 	height: auto;
+	overflow: hidden;
 	background-color: #29B078;
 }
 
@@ -434,23 +435,52 @@ a:hover .main-content3-circle {
 	margin: 66px auto 90px;
 	height: 177.7px;
 	border: 1px solid #EEEDED;
+	box-sizing: border-box;
 	background-color: #FFF;
 }
 
+.main-content4 button {
+	width: 236.49px;
+    height: 175.69px;
+	margin: 0;
+	padding: 0;
+	border: none;
+	box-sizing: border-box;
+	background-color: #FFF;
+}
+
+button:hover {
+	box-shadow: 0px 3px 6px 1px #999;
+}
+
 .main-content4-icon1 {
-	padding-right: 15%;
+	background-image: url(images/alibaba.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
 .main-content4-icon2 {
-	padding-right: 20%;
+	background-image: url(images/jinshanyun.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
 .main-content4-icon3 {
-	padding: 15% 5%;
+	background-image: url(images/huanxin.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
 .main-content4-icon4 {
-	padding: 15% 0 20% 5%;
+	background-image: url(images/ronglian.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.main-content4-icon5 {
+	background-image: url(images/qiniu.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
 .main-connector-bg {
@@ -699,6 +729,20 @@ div #carousel-example-generic {
 	}
 }
 
+@media screen and (min-width: 1024px) {
+	.main-content4 button {
+		width: 19.61%;
+		height: auto;
+	}
+}
+
+@media screen and (min-width: 624px) and (max-width: 1024px) {
+	.main-content4 button {
+		width: 32.699%;
+		height: auto;
+	}
+}
+
 @media screen and (min-width: 624px) and (max-width:1200px) {
 
 	.main-content1 span {
@@ -791,7 +835,7 @@ div #carousel-example-generic {
 	}
 
 	.main-content4 {
-		width: 70vw;
+		width: 85vw;
 	}
 }
 
@@ -869,5 +913,10 @@ div #carousel-example-generic {
 
 	.nav-bg button {
 		display: inline-block;
+	}
+
+	.main-content4 button {
+		width: 49.1%;
+		height: auto;
 	}
 }

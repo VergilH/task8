@@ -2,7 +2,7 @@ body {
 	margin: 0;
 	padding: 0;
 	box-sizing:border-box;
-	background-color: #FAFAFA;
+	background-color: #FAFAFA!important;
 	overflow-x: hidden;
 }
 
@@ -510,7 +510,7 @@ div #carousel-example-generic {
 		height: auto;
 		margin: 0 auto 50px;
 		padding: 0 15px;
-		overflow: auto;
+		overflow: hidden;
 	}
 
 	content div {
